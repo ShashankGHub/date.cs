@@ -1,0 +1,12 @@
+using System;
+namespace SampleCode
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DateTime d=DateTime.Now;
+            Console.Write(d.ToString("dd/MM/yyyy"));
+        }
+    }
+}
